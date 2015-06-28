@@ -1,4 +1,4 @@
-package com.github.rayedchan.pokemonvirtualbinder.uitls;
+package com.github.rayedchan.pokemonvirtualbinder.utils;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -22,8 +22,7 @@ public class GenerateSQLScript
         {
             
             
-            
-            
+    
             // Get current working directory of project
             String currentDirectory = System.getProperty("user.dir");
             System.out.println("Working Directory = " + currentDirectory);
@@ -31,7 +30,7 @@ public class GenerateSQLScript
             String fileName = "sqlscripts/Pokedex.sql"; // Relative to project
             writer = new PrintWriter(fileName, "UTF-8");
             
-            writer.println("Hello");
+            writer.println("Hello2");
         } 
         
         catch (FileNotFoundException | UnsupportedEncodingException ex)
